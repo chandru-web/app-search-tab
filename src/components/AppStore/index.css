@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+  position: relative;
+  padding: 10px;
+}
+
+.input-area {
+  flex: 1;
+  padding-right: 40px;
+  width: 100%;
+}
+
+.search-img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 10px;
+}
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.apps-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
